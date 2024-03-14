@@ -2,28 +2,28 @@
 ## Python Home
 print("Hello, World!!!!!!")
 ##Python Syntax
-Python Indentation
-if 5 > 2:
-  print("Five is greater than two!")
-  공백을 넣지 않으면 오류가 발생한다. 일반적으로 4개의 공백이 사용되지만 적어도 하는 있어야 한다. ex)
-    if 5 > 2:
- print("Five is greater than two!") 
-if 5 > 2:
-        print("Five is greater than two!") 
-  Python Variables 변수에 값을 할당하면 변수가 생성된다.
-  x = 119
-y = "Hello, World!"
-Comment #을 이용해 주석을 달 수 있다. #이것은 주석입니다
-print("Hello, World!!!!!!")
+###Python Indentation
+###if 5 > 2:
+###print("Five is greater than two!")
+###공백을 넣지 않으면 오류가 발생한다. 일반적으로 4개의 공백이 사용되지만 적어도 하는 있어야 한다. ex)
+    ###if 5 > 2:
+ ###print("Five is greater than two!") 
+###if 5 > 2:
+       ### print("Five is greater than two!") 
+  ###Python Variables 변수에 값을 할당하면 변수가 생성된다.
+  ###x = 119
+###y = "Hello, World!"
+###Coment #을 이용해 주석을 달 수 있다. #이것은 주석입니다
+###print("Hello, World!!!!!!")
 ##Python Comments
-주석은 #으로 시작하며 그 뒤는 파이썬에서 무시된다.
-print("Hello, World!!!!!!") # 주석이다
+###주석은 #으로 시작하며 그 뒤는 파이썬에서 무시된다.
+###print("Hello, World!!!!!!") # 주석이다
 ##Python Variables
-x = 20
-y = "Ha Bin"
-print(x)
-print(y)
-다른 유형으로 변수를 설정할 수 있다 (int : 정수형 , str : 문자열)
+###x = 20
+###y = "Ha Bin"
+###print(x)
+###print(y)
+###다른 유형으로 변수를 설정할 수 있다 (int : 정수형 , str : 문자열)
 x = 18       # 정수형으로 작성된 변수
 x = "Cally" # 문자열로 작성된 변수
 print(x)
