@@ -74,3 +74,83 @@ print(x + y)
 x = 7
 y = "HaBin"
 print(x, y)
+##Python Data Types
+문자열 유형: str
+
+숫자(정수,실수) 유형: int, float, complex
+
+시퀀스 유형: list, tuple, range
+
+매핑 유형: dict
+
+세트 유형: set,frozenset
+
+부울 유형: bool
+
+바이너리 유형: bytes, bytearray, memoryview
+
+없음 유형: NoneType
+##데이터 유형 가져오기
+type()함수를 사용해서 데이터 유형을 가져올 수 있다.
+x = 5
+print(type(x))
+<class 'int'>
+##Python Numbers
+int 정수
+
+float 실수
+
+complex 복소수
+##한 유형에서 다른 유형으로 변환:
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+##Python Strings
+안녕하세요는 안녕하세요와 같다
+
+#변수에 문자열 할당
+a = "사랑해"
+print(a)
+##Strings are Arrays
+#위치 1의 문자을 가져온다.(첫 번째 문자의 위치는 0임을 기억할것)
+a = "안녕, 반가워
+print(a[1])
+=녕
+#for 루프를 사용하여 문자열의 문자를 반복할 수 있다.
+for x in "catia":
+  print(x)
+  ##문자열 길이
+  #len()함수를 사용
+  a = "Hello, World!!!!!!"
+print(len(a))
+=13
+##Check String
+in과 not in을 사용하여 텍스트에 원하는 단어가 있는지 확인 가능하다
+txt = "안녕하세요, 반갑습니다"
+print("고마워요" not in txt)
+= True
+if 명령문을 통해 활용 가능
+txt = "안녕하세요, 반갑습니다"
+if "고마워요" not in txt:
+    print("No, '고마워요' is NOT present.")
+
+
+
+
