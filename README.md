@@ -2,17 +2,17 @@
 ## Python Home
 print("Hello, World!!!!!!")
 ##Python Syntax
-###Python Indentation
-###if 5 > 2:
-###print("Five is greater than two!")
-###공백을 넣지 않으면 오류가 발생한다. 일반적으로 4개의 공백이 사용되지만 적어도 하는 있어야 한다. ex)
-    ###if 5 > 2:
- ###print("Five is greater than two!") 
-###if 5 > 2:
-       ### print("Five is greater than two!") 
-  ###Python Variables 변수에 값을 할당하면 변수가 생성된다.
-  ###x = 119
-###y = "Hello, World!"
+### Python Indentation
+### if 5 > 2:
+### print("Five is greater than two!")
+### 공백을 넣지 않으면 오류가 발생한다. 일반적으로 4개의 공백이 사용되지만 적어도 하는 있어야 한다. ex)
+if 5 > 2:
+print("Five is greater than two!") 
+if 5 > 2:
+print("Five is greater than two!") 
+  ### Python Variables 변수에 값을 할당하면 변수가 생성된다.
+x = 119
+y = "Hello, World!"
 ###Coment #을 이용해 주석을 달 수 있다. #이것은 주석입니다
 ###print("Hello, World!!!!!!")
 ##Python Comments
